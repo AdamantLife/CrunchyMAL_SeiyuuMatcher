@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Ignore Directories starting with "." as a general rule
+.*/
+
+# Visual Studio Python Project
+*.pyproj
+
 # C extensions
 *.so
 
